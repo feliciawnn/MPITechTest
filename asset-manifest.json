@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MPITechTest/static/css/main.3ab07ca1.css",
-    "main.js": "/MPITechTest/static/js/main.3ad465d4.js",
+    "main.js": "/MPITechTest/static/js/main.8b49482f.js",
     "static/js/787.b56a9f5c.chunk.js": "/MPITechTest/static/js/787.b56a9f5c.chunk.js",
     "index.html": "/MPITechTest/index.html",
     "main.3ab07ca1.css.map": "/MPITechTest/static/css/main.3ab07ca1.css.map",
-    "main.3ad465d4.js.map": "/MPITechTest/static/js/main.3ad465d4.js.map",
+    "main.8b49482f.js.map": "/MPITechTest/static/js/main.8b49482f.js.map",
     "787.b56a9f5c.chunk.js.map": "/MPITechTest/static/js/787.b56a9f5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ab07ca1.css",
-    "static/js/main.3ad465d4.js"
+    "static/js/main.8b49482f.js"
   ]
 }
