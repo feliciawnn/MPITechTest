@@ -1,0 +1,51 @@
+.Landing{
+    background: rgb(145,166,236);
+    background: linear-gradient(45deg, rgba(145,166,236,1) 0%, rgba(255,229,203,1) 73%, rgba(255,224,224,1) 100%);  
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+  
+.Section{
+width: 100vw;
+margin-top: 48px;
+}
+
+.MainTitle h1, p{
+width: 100vw;
+margin: 0;
+}
+
+.MainTitle p i a{
+    font-weight: 600;
+    text-decoration: underline;
+    color: #000;
+}
+
+.MainTitle p i a:hover{
+    color: #575761;
+}
+
+.MainTitle{
+padding-top: 100px;
+}
+
+.ButtonWrapper{
+margin: 24px 0;
+width: 100%;
+}
+
+.TaskButton{
+    max-width: 30%;
+    margin: auto 24px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgba(255,255,255,0.5);
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.TaskButton:hover{
+    background-color: rgba(103, 103, 103, 0.5);
+    color: #fff;
+}

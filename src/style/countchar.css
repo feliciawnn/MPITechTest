@@ -1,0 +1,96 @@
+.CountChar{
+    background: rgb(145,166,236);
+    background: linear-gradient(45deg, rgba(145,166,236,1) 0%, rgba(255,229,203,1) 73%, rgba(255,224,224,1) 100%);  
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+    /* width: 100vw; */
+}
+
+.Title{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.Title p{
+    overflow: hidden;
+}
+
+/* .InputWrapper{
+    display: flex;
+    justify-content: center;
+} */
+
+.FormContainer{
+    width: 100vw;
+}
+ 
+.FormWrapper{
+    /* display: inline-block; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.InputBox{
+    width: calc(60% - 16px);
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    margin: 0 8px;
+    border-radius: 8px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.FormBtn{
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.Submit{
+    background-color: #ADD8E6;
+}
+
+.Reset{
+    background-color: rgb(255, 255, 255);
+}
+
+.FormBtn:hover{
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+.output{
+    margin: 24px auto;
+    text-align: center;
+}
+
+.backBtn{
+    text-decoration: none;
+    text-align: center;
+    background-color: #ADD8E6;
+    color: #000;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.backBtnContainer{
+    width: 100vw;
+    display: flex;
+}
