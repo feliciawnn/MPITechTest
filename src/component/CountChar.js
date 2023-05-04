@@ -63,7 +63,7 @@ export default function CountChar(){
             <p className="output" id="outputdiv"></p>
 
             <div className='backBtnContainer'>
-                <a className="backBtn" href='/'>Back to Home</a>
+                <a className="backBtn" href='/MPITechTest'>Back to Home</a>
             </div>
         </div>
     )
