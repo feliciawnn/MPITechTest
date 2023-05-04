@@ -1,0 +1,14 @@
+.SumOrder{ 
+    background: rgb(145,166,236);
+    background: linear-gradient(45deg, rgba(145,166,236,1) 0%, rgba(255,229,203,1) 73%, rgba(255,224,224,1) 100%);  
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+}
+
+.examples{
+    text-align: center;
+}
+
+.exImg{
+    margin: 24px auto;
+}

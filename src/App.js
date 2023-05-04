@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/MPITechTest" element={<Landing />}/>
           <Route path="/MPITechTest/task1" element={<CountChar />} />
-          {/* <Route path="/MPITechTest/task2" element={<SumOrder />} /> */}
+          <Route path="/MPITechTest/task2" element={<SumOrder />} />
           <Route path="/MPITechTest/task3" element={<UserLanding />} />
           <Route path="/MPITechTest/task3/register" element={<UserRegister />} />
           {/* <Route path="/MPITechTest/task3/dashboard" /> */}
