@@ -1,0 +1,191 @@
+.UserRegister{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.FormContainer{
+    margin-top: 48px;
+}
+
+.FormTitle, .FormSubtitle{
+    text-align: left;
+}
+
+.FormSubtitle{
+    margin-top: 24px;
+}
+
+.UploadFileWrapper{
+    border: 1px solid #c4c3c3;
+    padding: 0;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.UploadFileContainer, .UploadFileContainer label{
+    cursor:pointer;
+    width: 100%;
+}
+
+.UploadTitle{
+    background-color: #4285f4;
+    margin-bottom: 8px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.UploadTitleIcon{
+    margin-right: 12px;
+}
+
+#RegisterForm{
+    font-family: 'Varela Round', sans-serif;
+    border: none;
+    box-shadow: 0 0 10px #c4c3c3;
+    padding: 24px 48px;
+    border-radius: 8px;
+    max-height: 75vh;
+    overflow-y: scroll;
+}
+
+#RegisterForm::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  #RegisterForm::-webkit-scrollbar-track {
+    /* box-shadow:  grey; */
+    background-color: #dddddd;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  #RegisterForm::-webkit-scrollbar-thumb {
+    background: #4285f4;
+    border-radius: 10px;
+  }
+
+/* VERTICAL STEP BAR STYLING */
+#RegisterForm select, #RegisterForm input{
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    color: #888888;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #888888;
+}
+
+.StepBar{
+    margin-bottom: 24px;
+}
+
+.step {
+    position: relative;
+    min-height: 1em;
+    color: gray;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: baseline;
+}
+
+.step + .step {
+    margin-top: 2.5em
+}
+
+.step > div:first-child {
+    position: static;
+    height: 0;
+}
+
+.step > div:not(:first-child) {
+    margin-left: 1.5em;
+    padding-left: 1em;
+} 
+
+.circle {
+    background: gray;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0 3px #fff;
+}
+
+.circle:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+}
+
+.step:last-child .circle:after {
+    display: none
+}
+
+.step .step-active {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+/* PAGE TWO STYLING */
+.BackBtn, #RegisterForm .registerBtn{
+    display:inline-block;
+    width:calc(50% - 4px);
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.BackBtn{
+    margin-right: 4px;
+    border: 2px solid #888888;
+    color: #888888;
+}
+
+#RegisterForm .registerBtn{
+    margin-left: 4px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    border: 2px solid orange;
+}
+
+.orangeText{
+    color: orange;
+    text-decoration: none;
+}
+
+#RegisterForm #tnc{
+    width: 10%;
+    display: inline-block;
+}
+
+.tncLabel{
+    width: 80%;
+    display: inline-block;
+}
+
+input[type="checkbox"]{
+    width: 1.15em;
+    height: 1.15em;
+}
+
+.TncWrapper{
+    display: flex;
+    align-items: center;
+}

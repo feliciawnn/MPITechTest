@@ -7,19 +7,13 @@ import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
 
 
 import '../style/userlogin.css'
+import Header from './Header'
+
 export default function UserLanding(){
     return(
         <div className='UserLogin'>
             <div className='LightBg'>
-                <Container>
-                    <Navbar>
-                        <Navbar.Brand href='/MPITechTest/task3'>OLIN</Navbar.Brand>
-                        <Navbar.Text className='ms-auto'>
-                            <FontAwesomeIcon icon={faQuestionCircle} className='questionIcon' />
-                            Pusat Bantuan
-                        </Navbar.Text>
-                    </Navbar>
-                </Container>
+                <Header />
                 
                 <Container className='Text Container'>
                     <Row>

@@ -1,0 +1,13 @@
+.navshadow{
+    box-shadow: 0 8px 10px rgba(211, 211, 211, 0.2);
+    background-color: transparent;
+}
+
+.navbarContainer{
+    width: 100vw;
+    padding: 0 24px;
+}
+
+.navbar{
+    margin: 0;
+}
