@@ -1,12 +1,19 @@
 # Technical Test For MPI's Frontend Developer Role
 
-Created using ReactJs and Python. 
+Created using ReactJs (For Task 1 and 3) and Python (Task 3). 
+
+The main code logic are in these files:
+* Task 1: React/src/component/CountChar.js
+* Task 2: Python/task2.py
+* Task 3: React/src/component/UserLogin.js
+
 This repo contains the usual directory of a ReactJs file with the addition of a Task_2 file.
 Task 1 and Task 3 do not have separate directories as they are created using ReactJs.
 
 To run the repo, clone and open it with your local IDE.
 Navigate to the root of the directory and run
-### $ npm start
+```$ cd React
+$ npm start```
 
 ## Homepage
 Contains buttons to view all the tasks
